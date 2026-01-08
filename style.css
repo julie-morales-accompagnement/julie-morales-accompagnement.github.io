@@ -168,6 +168,17 @@ footer {
     font-size: 0.8rem;
     opacity: 0.5;
 }
+
+.approche-flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap; /* Important pour le mobile */
+}
+.approche-text { flex: 1; min-width: 300px; }
+.approche-image { flex: 1; min-width: 300px; }
+.img-portrait { width: 100%; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+
 /* --- ADAPTATION MOBILE --- */
 @media (max-width: 768px) {
     /* On empile le logo et le menu au centre */
@@ -218,3 +229,4 @@ footer {
         width: 100%;
         max-width: 300px;
     }
+}
