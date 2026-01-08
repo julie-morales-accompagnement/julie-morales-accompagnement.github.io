@@ -36,7 +36,7 @@ nav {
 
 .logo span {
     font-family: 'Indie Flower', cursive;
-    color: var(--soft-green);
+    color: var(--soft-blue);
     text-transform: none;
     font-size: 1.6rem;
     margin-left: 5px;
@@ -76,7 +76,7 @@ nav ul li a {
 
 .fun-text {
     font-family: 'Indie Flower', cursive;
-    color: var(--soft-green);
+    color: var(--soft-blue);
     font-size: 3.2rem;
 }
 
@@ -146,7 +146,7 @@ nav ul li a {
 }
 
 .card.highlight {
-    border-top: 5px solid var(--soft-green);
+    border-top: 5px solid var(--accent);
 }
 
 .emoji {
