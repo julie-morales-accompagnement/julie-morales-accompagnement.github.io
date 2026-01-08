@@ -1,9 +1,9 @@
 :root {
-    --primary: #1a2a3a;
-    --accent: #d4af37;
-    --soft-green: #2ecc71;
-    --bg-light: #f9fcfb;
-    --text: #4a4a4a;
+    --primary: #1e2a4a;    /* Le bleu nuit du logo */
+    --accent: #e69b31;     /* L'orange chaud de la fleur */
+    --soft-blue: #7fbce3;  /* Le bleu ciel de l'oiseau */
+    --bg-light: #f4f7f9;   /* Un gris-bleu très doux pour le fond */
+    --text: #333333;
 }
 
 body {
