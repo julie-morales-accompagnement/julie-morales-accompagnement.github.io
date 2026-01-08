@@ -1,167 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Julie Morales – Accompagnement éducatif personnalisé</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Julie Morales – Accompagnement éducatif personnalisé pour enfants et adolescents. Primaire et collège. 92, 75, 78, 95.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julie Morales | Accompagnement Scolaire Bienveillant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<header class="container header">
-  <div class="brand">Julie Morales</div>
-  <nav class="nav">
-    <a href="#services">Services</a>
-    <a href="#approche">Approche</a>
-    <a href="#ressources">Ressources</a>
-    <a class="btn btn--small" href="#contact">Contact</a>
-  </nav>
-</header>
+    <header>
+        <nav>
+            <div class="logo">Julie Morales <span>Accompagnement</span></div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#approche">Mon Approche</a></li>
+                <li><a href="#services">Séances</a></li>
+                <li><a href="#contact" class="btn-contact">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Cultiver la confiance pour que chaque enfant <br>
+                <span class="fun-text">s'épanouisse et trouve sa place.</span></h1>
+            <p class="subtitle">Soutien scolaire personnalisé et bienveillant à [Votre Ville] et en visio. Accompagner l'élève pour qu'il trouve sa juste façon de contribuer au monde.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="cta">Faisons connaissance</a>
+            </div>
+        </div>
+    </section>
 
-<!-- HERO -->
-<section class="container hero">
-  <div>
-    <span class="kicker">Accompagnement éducatif spécialisé</span>
-    <h1>Aider chaque enfant à apprendre à sa manière</h1>
-    <p class="lead">
-      Un accompagnement éducatif humain, structuré et bienveillant pour les enfants
-      et adolescents, du primaire au collège.
-    </p>
+    <section id="approche">
+        <div class="container">
+            <h2 class="section-title">Une présence à ses côtés</h2>
+            <div class="approche-text">
+                <p>Parce que chaque enfant perçoit le monde avec sa propre sensibilité, mon rôle est de lui offrir un espace de sécurité et d'écoute. À travers le soutien scolaire, je l'aide à transformer ses doutes en petites victoires quotidiennes.</p>
+                <p>Mon approche est centrée sur l'humain : respecter le rythme de chacun pour permettre à son potentiel de fleurir naturellement.</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="cta">
-      <a class="btn" href="#contact">Demander un premier échange</a>
-      <a class="btn btn--ghost" href="#services">Voir les services</a>
-    </div>
+    <section id="services" class="light-bg">
+        <div class="container">
+            <h2 class="section-title">Mes formules d'accompagnement</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <span class="emoji">🏠</span>
+                    <h3>Soutien à domicile</h3>
+                    <p>Un accompagnement doux et structuré en présentiel pour stabiliser les acquis et rassurer l'élève dans son environnement.</p>
+                </div>
+                <div class="card highlight">
+                    <span class="emoji">💻</span>
+                    <h3>Séances en Visio</h3>
+                    <p>Des moments d'échange dynamiques et interactifs pour travailler la méthode et l'autonomie, où que vous soyez.</p>
+                </div>
+                <div class="card">
+                    <span class="emoji">🌱</span>
+                    <h3>Accompagnement Spécifique</h3>
+                    <p>Une attention particulière pour les besoins spécifiques, centrée sur la valorisation des forces de l'enfant.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <ul class="bullets">
-      <li>Approche individualisée et inclusive</li>
-      <li>Méthodes de travail et outils adaptés</li>
-      <li>Respect du rythme et renforcement de la confiance</li>
-    </ul>
-  </div>
-<div class="hero__media">
-  <img src="hero.jpg" alt="Espace d’apprentissage apaisant et lumineux">
-</div>
-  <div class="card">
-    <h2>Pour qui ?</h2>
-    <p>
-      Pour les familles qui recherchent un accompagnement respectueux du fonctionnement
-      de leur enfant, avec des méthodes concrètes et rassurantes.
-    </p>
-    <div class="tags">
-      <span class="tag">Primaire</span>
-      <span class="tag">Collège</span>
-      <span class="tag">Besoins spécifiques</span>
-    </div>
-    <hr>
-    <p class="small">
-      Zones d’intervention : <strong>92 · 75 · 78 · 95</strong>
-    </p>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section id="services" class="container section">
-  <h2>Mes accompagnements</h2>
-
-  <div class="grid3">
-    <div class="card">
-      <h3>Bilan pédagogique & plan d’action</h3>
-      <p>
-        Une première séance pour comprendre le profil de l’enfant,
-        identifier les priorités et définir des objectifs clairs.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Accompagnement individuel</h3>
-      <p>
-        Suivi personnalisé en primaire et collège : méthodes de travail,
-        compréhension, organisation, autonomie et confiance en soi.
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Guidance parentale</h3>
-      <p>
-        Conseils concrets et outils pratiques pour accompagner son enfant
-        à la maison, sans pression ni conflit.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- APPROCHE -->
-<section id="approche" class="container section split">
-  <div class="card">
-    <h2>Ma façon d’accompagner</h2>
-    <p>
-      Chaque enfant est unique. Je prends le temps de comprendre son fonctionnement,
-      ses besoins et ses leviers de motivation afin de proposer un accompagnement
-      ajusté, progressif et sécurisant.
-    </p>
-    <p>
-      L’objectif n’est pas d’aller vite, mais d’aller juste, pour permettre des
-      apprentissages durables et une confiance retrouvée.
-    </p>
-  </div>
-
-  <div class="quote">
-    <p class="quote__big">« Aller juste plutôt qu’aller vite »</p>
-    <p class="small">Un cadre rassurant permet à l’enfant de mieux progresser.</p>
-  </div>
-</section>
-
-<!-- RESSOURCES -->
-<section id="ressources" class="container section">
-  <h2>Ressources pédagogiques</h2>
-  <div class="card">
-    <p>
-      Je conçois également des ressources pédagogiques pour aider les enfants
-      à apprendre de manière concrète et visuelle (horloge pédagogique, supports,
-      outils de compréhension…).
-    </p>
-    <a class="btn btn--ghost" href="#" title="Lien boutique à venir">
-      Accéder aux ressources (bientôt)
-    </a>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="container section contact">
-  <div class="card">
-    <h2>Un premier échange, simplement</h2>
-    <p>
-      Vous pouvez me contacter via le formulaire pour me décrire votre situation.
-      Je vous répondrai rapidement.
-    </p>
-
-    <a class="btn" href="LIEN_FORMULAIRE_ICI" target="_blank" rel="noopener">
-      Accéder au formulaire de contact
-    </a>
-
-    <p class="small muted">
-      Zones : 92 · 75 · 78 · 95 — Primaire & Collège
-    </p>
-  </div>
-
-  <footer class="footer">
-    <p class="small muted">© <span id="year"></span> Julie Morales</p>
-  </footer>
-</section>
-
-</main>
-
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+    <footer id="contact">
+        <h2>Faire le premier pas ensemble</h2>
+        <p>Discutons des besoins de votre enfant lors d'un premier échange offert.</p>
+        <a href="mailto:votre-email@exemple.com" class="cta">Envoyer un message</a>
+        <p class="copyright">&copy; 2024 Julie Morales Accompagnement</p>
+    </footer>
 
 </body>
 </html>
